@@ -1,0 +1,66 @@
+﻿l_english:
+ # Country Parties
+ BKM_power_party: "Royalty"
+ BKM_power_party_long: "Royalty"
+ BKM_knowledge_party: "Educated"
+ BKM_knowledge_party_long: "Educated"
+ BKM_neutral_party: "Peasantry"
+ BKM_neutral_party_long: "Peasantry"
+ 
+ CYR_power_party: "Royalty"
+ CYR_power_party_long: "Royalty"
+ CYR_knowledge_party: "Educated"
+ CYR_knowledge_party_long: "Educated"
+ CYR_neutral_party: "Peasantry"
+ CYR_neutral_party_long: "Peasantry"
+ 
+ ELS_power_party: "Royalty"
+ ELS_power_party_long: "Royalty"
+ ELS_knowledge_party: "Educated"
+ ELS_knowledge_party_long: "Educated"
+ ELS_neutral_party: "Peasantry"
+ ELS_neutral_party_long: "Peasantry"
+ 
+ HAM_power_party: "Royalty"
+ HAM_power_party_long: "Royalty"
+ HAM_knowledge_party: "Educated"
+ HAM_knowledge_party_long: "Educated"
+ HAM_neutral_party: "Peasantry"
+ HAM_neutral_party_long: "Peasantry"
+ 
+ HIG_power_party: "Royalty"
+ HIG_power_party_long: "Royalty"
+ HIG_knowledge_party: "Educated"
+ HIG_knowledge_party_long: "Educated"
+ HIG_neutral_party: "Peasantry"
+ HIG_neutral_party_long: "Peasantry"
+ 
+ MOR_power_party: "Royalty"
+ MOR_power_party_long: "Royalty"
+ MOR_knowledge_party: "Educated"
+ MOR_knowledge_party_long: "Educated"
+ MOR_neutral_party: "Peasantry"
+ MOR_neutral_party_long: "Peasantry"
+ 
+ SKY_power_party: "Royalty"
+ SKY_power_party_long: "Royalty"
+ SKY_knowledge_party: "Educated"
+ SKY_knowledge_party_long: "Educated"
+ SKY_neutral_party: "Peasantry"
+ SKY_neutral_party_long: "Peasantry"
+ 
+ SUM_power_party: "Royalty"
+ SUM_power_party_long: "Royalty"
+ SUM_knowledge_party: "Educated"
+ SUM_knowledge_party_long: "Educated"
+ SUM_neutral_party: "Peasantry"
+ SUM_neutral_party_long: "Peasantry"
+ 
+ VAL_power_party: "Royalty"
+ VAL_power_party_long: "Royalty"
+ VAL_knowledge_party: "Educated"
+ VAL_knowledge_party_long: "Educated"
+ VAL_neutral_party: "Peasantry"
+ VAL_neutral_party_long: "Peasantry"
+ 
+ 

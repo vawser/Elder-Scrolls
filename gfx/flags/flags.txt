@@ -1,0 +1,12 @@
+- top dir
+82 x 52
+<tag>_<ideology>.tga
+
+- medium dir
+41 x 26
+<tag>_<ideology>.tga
+
+- small dir
+10 x 7
+<tag>.tga
+<tag>_<ideology>.tga

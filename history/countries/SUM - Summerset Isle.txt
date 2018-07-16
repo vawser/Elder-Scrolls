@@ -1,0 +1,37 @@
+﻿capital = 1
+
+oob = "default_country_oob"
+
+set_research_slots = 3
+
+set_technology = {
+
+}
+
+add_ideas = {
+
+}
+
+set_politics = {
+
+	parties = {
+		power = { 
+			popularity = 75
+		}
+
+		knowledge = {
+			popularity = 5
+		}
+		
+		neutral = {
+			popularity = 20
+		}
+	}
+	
+	ruling_party = power
+	elections_allowed = no
+}
+
+set_convoys = 80
+set_national_unity = 0.75
+

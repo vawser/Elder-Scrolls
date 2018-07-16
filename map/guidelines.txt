@@ -1,0 +1,9 @@
+Provinces:
+The average minimum size of a province should be 30px by 30px
+
+The average maximum size of a province should be 60px by 60px
+
+This means the province count is between a upper bound of 12,000 and a lower bound of 3,200.
+
+Definition:
+Generated via a python script in two stages, one for the land, the other for the seas

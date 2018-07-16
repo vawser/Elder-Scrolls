@@ -1,0 +1,46 @@
+﻿
+add_namespace = setup
+
+country_event = {
+	id = setup.1
+	title = setup.1.title
+	desc = setup.1.desc
+	picture = GFX_report_event_setup
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = setup.1.a
+            
+	}
+    
+    option = {
+		name = setup.1.b
+            
+	}
+    
+    option = {
+		name = setup.1.c
+            
+	}
+    
+    option = {
+		name = setup.1.d
+            
+	}
+    
+    option = {
+		name = setup.1.e
+            
+	}
+    
+    option = {
+		name = setup.1.f
+            
+	}
+    
+    option = {
+		name = setup.1.g
+            
+	}
+}

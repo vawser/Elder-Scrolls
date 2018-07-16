@@ -1,0 +1,44 @@
+﻿l_english: 
+ # Ideologies
+ power: "Power"
+ power_noun: "Power"
+ power_desc: ""
+ knowledge: "Knowledge"
+ knowledge_noun: "Knowledge"
+ knowledge_desc: ""
+ neutral: "Neutral"
+ neutral_noun: "Neutral"
+ neutral_desc: ""
+
+ # Governments
+ kingdom: "Kingdom"
+ kingdom_desc: "Test"
+ council: "Council"
+ council_desc: ""
+ tribe: "Tribe"
+ tribe_desc: ""
+ 
+ # Ideology Modifiers
+ power_drift: "Power Drift"
+ power_acceptance: "Power Acceptance"
+ knowledge_drift: "Knowledge Drift"
+ knowledge_acceptance: "Knowledge Acceptance"
+ neutral_drift: "Neutral Drift"
+ neutral_acceptance: "Neutral Acceptance"
+ 
+ # Faction names
+ FACTION_NAME_1: "The $LEADER_COUNTRY_ADJ$ Union"
+ FACTION_NAME_2: "The $LEADER_COUNTRY_ADJ$ Association"
+ FACTION_NAME_3: "The $LEADER_COUNTRY_ADJ$ Concordat"
+ FACTION_NAME_4: "The $LEADER_COUNTRY_ADJ$ Coalition"
+ FACTION_NAME_5: "The $LEADER_COUNTRY_ADJ$ League"
+ 
+ # Bookmarks
+ IMPERIAL_CRISIS_NAME: "Imperial Crisis"
+ IMPERIAL_CRISIS_DESC: "War..."
+ BLANK_DESC: "Intentionally blank."
+ CYR_HISTORY_DESC: ""
+ 
+ # Events
+ setup.1.title: "Test"
+ setup.1.desc: "Test"
