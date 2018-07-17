@@ -1,6 +1,500 @@
 #reload countrycolors
 
-GER = {
-	color = HSV {  }
+#--------------------------------
+# Argonia
+#--------------------------------
+BKM = {
+	color = rgb { 64 68 76 }
+	color_ui = rgb { 64 68 76 }
+}
+ARC = {
+	color = rgb { 82 96 119 }
+	color_ui = rgb { 82 96 119 }
+}
+BKR = {
+	color = rgb { 109 41 173 }
+	color_ui = rgb { 109 41 173 }
+}
+GID = {
+	color = rgb { 41 155 173 }
+	color_ui = rgb { 41 155 173  }
+}
+LIL = {
+	color = rgb { 69 132 27 }
+	color_ui = rgb { 69 132 27 }
+}
+STH = {
+	color = rgb { 27 78 132 }
+	color_ui = rgb { 27 78 132  }
+}
+THO = {
+	color = rgb { 132 33 27 }
+	color_ui = rgb { 132 33 27  }
+}
+SLR = {
+	color = rgb { 88 38 112 }
+	color_ui = rgb { 88 38 112  }
+}
+HEL = {
+	color = rgb { 153 106 59 }
+	color_ui = rgb { 153 106 59 }
+}
+
+#--------------------------------
+# Cyrodiil
+#--------------------------------
+CYR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+IMP = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+CHE = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+ANV = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SKI = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+KVA = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+CHO = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+BRV = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+BRM = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+LEY = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# High Rock
+#--------------------------------
+HIG = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+DAG = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+CAM = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+WAY = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+NRP = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+EVR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+JEH = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+ORS = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SHR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+DWY = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Skyrim
+#--------------------------------
+SKY = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SKL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SOL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+WHI = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+HJA = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+WTH = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+EST = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+FLK = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+RIF = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+RCH = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+PAL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+FOR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+#--------------------------------
+# Hammerfell
+#--------------------------------
+HAM = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+STR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SEN = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SKA = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+GIL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+RIH = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+TAN = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+ELI = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+DGT = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+HEG = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Morrowind
+#--------------------------------
+MOR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+DRE = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+HLA = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+IND = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+RED = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SAD = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+TEL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Pyandonea
+#--------------------------------
+ABB = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+PYR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+PON = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Summerset Isles
+#--------------------------------
+SUM = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+AUR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+ALI = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+FRH = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SKW = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SHI = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+LDR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Valenwood
+#--------------------------------
+VAL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+FAL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+ELD = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+ARE = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+HAV = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SUP = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+COR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SIV = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+GRE = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+MAR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+WOD = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Elsweyr
+#--------------------------------
+ANQ = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+PEL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+RIV = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SNC = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+RIM = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Kamal
+#--------------------------------
+KAM = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+KAL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+MEH = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+RYZ = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+KAZ = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Potun
+#--------------------------------
+XIE = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+GUC = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+BEI = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+PHA = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Tang Mo
+#--------------------------------
+LNG = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SUN = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Tsaesci
+#--------------------------------
+GOR = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+KAI = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+SIG = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+PAN = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+NUK = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+GOL = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Sload
+#--------------------------------
+SLO = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Yokuda
+#--------------------------------
+YOK = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Atmora
+#--------------------------------
+ATM = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+
+#--------------------------------
+# Akavir Islanders
+#--------------------------------
+CAT = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+YNE = {
+	color = rgb { }
+	color_ui = rgb { }
+}
+ESR = {
+	color = rgb { }
 	color_ui = rgb { }
 }

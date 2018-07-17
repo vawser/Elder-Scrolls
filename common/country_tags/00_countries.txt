@@ -30,7 +30,7 @@ BRM = "countries/cyrodiil/Bruma.txt"
 LEY = "countries/cyrodiil/Leyawiin.txt"
 
 #------------
-# Highrock
+# High Rock
 #------------
 HIG = "countries/high_rock/High Rock.txt"
 
@@ -190,7 +190,7 @@ YOK = "countries/yokuda/Yokuda.txt"
 ATM = "countries/atmora/Atmora.txt"
 
 #------------
-# Akavir Islands
+# Akavir Islanders
 #------------
 CAT = "countries/islander/Cathnoquey.txt"
 YNE = "countries/islander/Yneslea.txt"
