@@ -36,7 +36,6 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
-        has_dlc = "Death or Dishonor"
 	}
 	
 	can_take_level = {

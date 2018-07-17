@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "MEH_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_kamal
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 40
+		}
+		knowledge = {
+			popularity = 5
+		}
+		wealth = {
+			popularity = 10
+		}
+        religion = {
+			popularity = 10
+		}
+        justice = {
+			popularity = 5
+		}
+        charisma = {
+			popularity = 15
+		}
+        subterfuge = {
+			popularity = 10
+		}
+        industrial = {
+			popularity = 5
+		}
+        occult = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = might
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/KAMAL/kamal_male_1.dds"
+	expire = "5.1.1"
+	ideology = might_kingdom
+	traits = {
+		
+	}
+}

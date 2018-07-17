@@ -1,37 +1,60 @@
-﻿capital = 1
+﻿capital = 100
 
-oob = "default_country_oob"
+oob = "VAL_default"
 
-set_research_slots = 3
+set_research_slots = 4
 
 set_technology = {
-
+    setup_technology = 1
 }
 
 add_ideas = {
-
+    racial_bosmer
 }
 
+set_convoys = 100
+
 set_politics = {
-
 	parties = {
-		power = { 
-			popularity = 75
+		might = {
+			popularity = 10
 		}
-
 		knowledge = {
 			popularity = 5
 		}
-		
-		neutral = {
+		wealth = {
+			popularity = 5
+		}
+        religion = {
+			popularity = 40
+		}
+        justice = {
 			popularity = 20
 		}
+        charisma = {
+			popularity = 5
+		}
+        subterfuge = {
+			popularity = 5
+		}
+        industrial = {
+			popularity = 10
+		}
+        occult = {
+			popularity = 0
+		}
 	}
-	
-	ruling_party = power
-	elections_allowed = no
+
+	ruling_party = religion
 }
 
-set_convoys = 80
-set_national_unity = 0.75
-
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/BOSMER/bosmer_male_1.dds"
+	expire = "5.1.1"
+	ideology = religion_kingdom
+	traits = {
+		
+	}
+}

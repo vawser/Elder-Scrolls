@@ -1,0 +1,93 @@
+leader_traits = {
+	trait_might_advisor = {
+		random = no
+		sprite = 13
+        
+		might_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_knowledge_advisor = {
+		random = no
+		sprite = 13
+        
+		knowledge_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_wealth_advisor = {
+		random = no
+		sprite = 13
+        
+		wealth_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_religion_advisor = {
+		random = no
+		sprite = 13
+        
+		religion_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_justice_advisor = {
+		random = no
+		sprite = 13
+        
+		justice_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_charisma_advisor = {
+		random = no
+		sprite = 13
+        
+		charisma_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_occult_advisor = {
+		random = no
+		sprite = 13
+        
+		occult_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_subterfuge_advisor = {
+		random = no
+		sprite = 13
+        
+		subterfuge_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    trait_industrial_advisor = {
+		random = no
+		sprite = 13
+        
+		industrial_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

@@ -1,0 +1,330 @@
+ideas = {
+	political_advisor = {
+		generic_might_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_might_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_might_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = might
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_knowledge_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_knowledge_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_knowledge_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = knowledge
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        generic_wealth_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_wealth_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_wealth_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = wealth
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        generic_religion_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_religion_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_religion_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = religion
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        generic_justice_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_justice_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_justice_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = justice
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        generic_charisma_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_charisma_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_charisma_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = charisma
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        generic_occult_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_occult_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_occult_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = occult
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        generic_subterfuge_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_subterfuge_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_subterfuge_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = subterfuge
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        generic_industrial_advisor = {
+			allowed = {
+				NOT = {
+                    uses_unique_advisors = yes
+					has_available_idea_with_traits = { idea = trait_industrial_advisor limit = 1 }
+				}
+			}
+
+			available = { }
+			
+			traits = { trait_industrial_advisor }
+
+			do_effect = {
+				NOT = {
+					has_government = industrial
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }    
+    
+    army_chief = {
+		generic_army_chief_off = {
+			
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { army_chief_offensive_1 }
+		}
+
+		generic_army_chief_def = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { army_chief_defensive_1 }
+		}
+	}
+
+	navy_chief = {		
+		generic_navy_chief_decisive_bat = {
+			
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+		}
+
+		generic_navy_anti_submarine = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { navy_anti_submarine_2 }
+		}
+	}
+
+	air_chief = {
+		generic_air_close_air_sup = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { air_close_air_support_2 }
+		}
+	
+		generic_air_chief_all_weather = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { air_chief_all_weather_2 }			
+		}
+	}
+
+	high_command = {
+		generic_army_art = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { army_artillery_1 }			
+		}
+		
+		generic_army_log = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { army_logistics_2 }			
+		}
+
+		generic_navy_fleet_log = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { navy_fleet_logistics_1 }			
+		}
+
+		generic_air_air_combat_trainer = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			traits = { air_air_combat_training_2 }			
+		}
+	}
+
+	theorist = {
+		generic_military_theorist = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+	
+		generic_naval_theorist = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+
+		generic_air_warfare_theorist = {
+			allowed = {
+				NOT = { uses_unique_advisors = yes }
+			}
+			
+			research_bonus = {
+				air_warfare_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+}

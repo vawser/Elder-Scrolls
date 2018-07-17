@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "LEY_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_imperial
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 40
+		}
+		knowledge = {
+			popularity = 10
+		}
+		wealth = {
+			popularity = 25
+		}
+        religion = {
+			popularity = 2
+		}
+        justice = {
+			popularity = 3
+		}
+        charisma = {
+			popularity = 10
+		}
+        subterfuge = {
+			popularity = 2
+		}
+        industrial = {
+			popularity = 7
+		}
+        occult = {
+			popularity = 1
+		}
+	}
+
+	ruling_party = might
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/IMPERIAL/imperial_male_1.dds"
+	expire = "5.1.1"
+	ideology = might_kingdom
+	traits = {
+		
+	}
+}

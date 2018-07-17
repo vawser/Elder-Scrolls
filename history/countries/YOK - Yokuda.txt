@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "YOK_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_redguard
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 10
+		}
+		knowledge = {
+			popularity = 15
+		}
+		wealth = {
+			popularity = 10
+		}
+        religion = {
+			popularity = 35
+		}
+        justice = {
+			popularity = 10
+		}
+        charisma = {
+			popularity = 10
+		}
+        subterfuge = {
+			popularity = 5
+		}
+        industrial = {
+			popularity = 5
+		}
+        occult = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = might
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/REDGUARD/redguard_male_1.dds"
+	expire = "5.1.1"
+	ideology = might_kingdom
+	traits = {
+		
+	}
+}

@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "HEL_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_argonian
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 10
+		}
+		knowledge = {
+			popularity = 2
+		}
+		wealth = {
+			popularity = 15
+		}
+        religion = {
+			popularity = 20
+		}
+        justice = {
+			popularity = 3
+		}
+        charisma = {
+			popularity = 5
+		}
+        subterfuge = {
+			popularity = 30
+		}
+        industrial = {
+			popularity = 10
+		}
+        occult = {
+			popularity = 5
+		}
+	}
+
+	ruling_party = subterfuge
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/ARGONIAN/argonian_male_1.dds"
+	expire = "5.1.1"
+	ideology = subterfuge_kingdom
+	traits = {
+		
+	}
+}

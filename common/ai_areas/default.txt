@@ -1,7 +1,119 @@
 areas = {
-	nirn = {
+    yokuda = {
+        continents = { 
+			yokuda
+		}
+    }
+	tamriel = {
 		continents = { 
 			tamriel
 		}
 	}
+    alinor = {
+        continents = { 
+			alinor
+		}
+    }
+    pyandonea = {
+		continents = { 
+			pyandonea
+		}
+	}
+    roscrea = {
+		continents = { 
+			roscrea
+		}
+	}
+    atmora = {
+		continents = { 
+			atmora
+		}
+	}
+    thras = {
+		continents = { 
+			thras
+		}
+	}
+    cathnoquey = {
+		continents = { 
+			cathnoquey
+		}
+	}
+    yneslea = {
+		continents = { 
+			yneslea
+		}
+	}
+    esroniet = {
+		continents = { 
+			esroniet
+		}
+	}
+    akavir = {
+		continents = { 
+			akavir
+		}
+	}
+
+    # Sub-continents
+    morrowind = {
+        strategic_regions = { 
+			
+		}
+    }
+    skyrim = {
+        strategic_regions = { 
+			
+		}
+    }
+    cyrodiil = {
+        strategic_regions = { 
+			
+		}
+    }
+    black_marsh = {
+        strategic_regions = { 
+			
+		}
+    }
+    elsweyr = {
+        strategic_regions = { 
+			
+		}
+    }
+    valenwood = {
+        strategic_regions = { 
+			
+		}
+    }
+    hammerfell = {
+        strategic_regions = { 
+			
+		}
+    }
+    highrock = {
+        strategic_regions = { 
+			
+		}
+    }
+    tsakara = {
+        strategic_regions = { 
+			
+		}
+    }
+    ka_po_tun = {
+        strategic_regions = { 
+			
+		}
+    }
+    qing_mo = {
+        strategic_regions = { 
+			
+		}
+    }
+    kamal = {
+        strategic_regions = { 
+			
+		}
+    }
 }

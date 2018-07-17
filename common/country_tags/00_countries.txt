@@ -1,176 +1,198 @@
-BKM	= "countries/Black Marsh.txt"
-CYR = "countries/Cyrodil.txt"
-ELS = "countries/Elsweyr.txt"
-HAM = "countries/Hammerfell.txt"
-HIG = "countries/High Rock.txt"
-MOR = "countries/Morrowind.txt"
-SKY = "countries/Skyrim.txt"
-SUM = "countries/Summerset Isle.txt"
-VAL = "countries/Valenwood.txt"
-
-# List of possible countries (taken from Elder Kings):
-
 #------------
 # Argonia
 #------------
-# Black Marsh
-# Lilmoth
-# Stormhold
-# Thorn
-# Soulrest
-    
+BKM = "countries/argonia/Black Marsh.txt"
+
+# Cities
+ARC = "countries/argonia/Archon.txt"
+BKR = "countries/argonia/Blackrose.txt"
+GID = "countries/argonia/Gideon.txt"
+LIL	= "countries/argonia/Lilmoth.txt"
+STH	= "countries/argonia/Stormhold.txt"
+THO	= "countries/argonia/Thorn.txt"
+SLR	= "countries/argonia/Soulrest.txt"
+HEL	= "countries/argonia/Helstrom.txt"
+
 #------------
 # Cyrodiil
 #------------
-# Cryodiil
-# Colovia
-# Nibenay
-# Cheydinhal
-# Anvil
-# Skingrad
-# Kvatch
-# Heartlands
-# Chorrol
-# Bravil
-# Bruma
-# Leyawiin
+CYR = "countries/cyrodiil/Cyrodiil.txt"
+
+# Cities
+IMP = "countries/cyrodiil/Imperial City.txt"
+CHE = "countries/cyrodiil/Cheydinhal.txt"
+ANV = "countries/cyrodiil/Anvil.txt"
+SKI = "countries/cyrodiil/Skingrad.txt"
+KVA = "countries/cyrodiil/Kvatch.txt"
+CHO = "countries/cyrodiil/Chorrol.txt"
+BRV = "countries/cyrodiil/Bravil.txt"
+BRM = "countries/cyrodiil/Bruma.txt"
+LEY = "countries/cyrodiil/Leyawiin.txt"
 
 #------------
 # Highrock
 #------------
-# Daggerfall
-# Camlorn
-# Wayrest
-# Northpoint
-# Evermore
-# Jehenna
-# Orsinium
-# Sharnhelm
+HIG = "countries/high_rock/High Rock.txt"
+
+# Cities
+DAG = "countries/high_rock/Daggerfall.txt"
+CAM = "countries/high_rock/Camlorn.txt"
+WAY = "countries/high_rock/Wayrest.txt"
+NRP = "countries/high_rock/Northpoint.txt"
+EVR = "countries/high_rock/Evermore.txt"
+JEH = "countries/high_rock/Jehenna.txt"
+ORS = "countries/high_rock/Orsinium.txt"
+SHR = "countries/high_rock/Sharnhelm.txt"
+DWY = "countries/high_rock/Dwynnen.txt"
 
 #------------
 # Skyrim
 #------------
-# Solitude
-# Whiterun
-# Hjaalmarch
-# Winterhold
-# Eastmarch
-# Falkreath
-# The Rift
-# The Reach
-# The Pale
+SKY = "countries/skyrim/Skyrim.txt"
+SKL = "countries/skyrim/Skaal.txt"      # Solstheim
+
+# Cities
+SOL = "countries/skyrim/Solitude.txt"
+WHI = "countries/skyrim/Whiterun.txt"
+HJA = "countries/skyrim/Hjaalmarch.txt"
+WTH = "countries/skyrim/Winterhold.txt"
+EST = "countries/skyrim/Eastmarch.txt"
+FLK = "countries/skyrim/Falkreath.txt"
+RIF = "countries/skyrim/The Rift.txt"
+RCH = "countries/skyrim/The Reach.txt"
+PAL = "countries/skyrim/The Pale.txt"
+FOR = "countries/skyrim/Forsworn.txt"
+
 
 #------------
 # Hammerfell
 #------------
-# Sentinel
-# Skaven
-# Gilane
-# Rihad
-# Taneth
-# Elinhir
-# Dragontail
-# Hegathe
+HAM = "countries/hammerfell/Hammerfell.txt"
+STR = "countries/hammerfell/Stros M'kai.txt"
+
+# Cities
+SEN = "countries/hammerfell/Sentinel.txt"
+SKA = "countries/hammerfell/Skaven.txt"
+GIL = "countries/hammerfell/Gilane.txt"
+RIH = "countries/hammerfell/Rihad.txt"
+TAN = "countries/hammerfell/Taneth.txt"
+ELI = "countries/hammerfell/Elinhir.txt"
+DGT = "countries/hammerfell/Dragonstar.txt"
+HEG = "countries/hammerfell/Hegathe.txt"
 
 #------------
 # Morrowind
 #------------
-# Mournhold
-# Blacklight
-# Tear
-# Ebonheart
-# Narsis
-# Hlaalu
-# Dres
-# Redoran
-# Indoril
-# Telvaani
-# Sadras
-# Sul
-# Veloth
-# Vvardenfell
+MOR = "countries/morrowind/Morrowind.txt"
+
+# Houses
+DRE = "countries/morrowind/Dres.txt"        # Tear
+HLA = "countries/morrowind/Hlaalu.txt"      # Narsis
+IND = "countries/morrowind/Indoril.txt"     # Mournhold
+RED = "countries/morrowind/Redoran.txt"     # Blacklight
+SAD = "countries/morrowind/Sadras.txt"      
+TEL = "countries/morrowind/Telvanni.txt"
 
 #------------
 # Pyandonea
 #------------
-# Abbarbas
-# Pyrrahn
-# Pontu
+ABB = "countries/pyandonea/Abbarbas.txt"
+PYR = "countries/pyandonea/Pyrrahn.txt"
+PON = "countries/pyandonea/Pontu.txt"
 
 #------------
 # Summerset Isles
 #------------
-# Aldmeri Dominion
-# Auridon
-# Shimmerene
-# Lillandril
+SUM = "countries/alinor/Aldmeri Dominion.txt"
+AUR = "countries/alinor/Auridon.txt"
+
+# Cities
+ALI = "countries/alinor/Alinor.txt"
+FRH = "countries/alinor/Firsthold.txt"
+SKW = "countries/alinor/Skywatch.txt"
+SHI = "countries/alinor/Shimmerene.txt"
+LDR = "countries/alinor/Lillandril.txt"
 
 #------------
 # Valenwood
 #------------
-# Falinesti
-# Eldenroot
-# Eldengrove
-# Arenthia
-# Haven
-# Southpoint
-# Cormount
-# Silvenar
+VAL = "countries/valenwood/Valenwood.txt"
+
+# Cities
+FAL = "countries/valenwood/Falinesti.txt"
+ELD = "countries/valenwood/Eldenroot.txt"
+ARE = "countries/valenwood/Arenthia.txt"
+HAV = "countries/valenwood/Haven.txt"
+SUP = "countries/valenwood/Southpoint.txt"
+COR = "countries/valenwood/Cormount.txt"
+SIV = "countries/valenwood/Silvenar.txt"
+GRE = "countries/valenwood/Greenheart.txt"
+MAR = "countries/valenwood/Marbruk.txt"
+WOD = "countries/valenwood/Woodhearth.txt"
 
 #------------
 # Elsweyr
 #------------
-# Riverhold
-# Senchal
-# Rimmen
-# Anequina
-# Pellitine
+ANQ = "countries/elsweyr/Anequina.txt"
+PEL = "countries/elsweyr/Pellitine.txt"
+
+# Cities
+RIV = "countries/elsweyr/Riverhold.txt"
+SNC = "countries/elsweyr/Senchal.txt"
+RIM = "countries/elsweyr/Rimmen.txt"
 
 #------------
 # Kamal
 #------------
-# Kamaleimirvuk
-# Kamalettan
-# Mehekbaz
-# Ryzgaley
-# Kazedirica
+KAM = "countries/kamal/Kamaleimirvuk.txt"
+KAL = "countries/kamal/Kamalettan.txt"
+MEH = "countries/kamal/Mehekbaz.txt"
+RYZ = "countries/kamal/Ryzgaley.txt"
+KAZ = "countries/kamal/Kazedirica.txt"
 
 #------------
 # Potun
 #------------
-# Xieyang
-# Gucun
-# Beidao
-# Phaedin
+XIE = "countries/potun/Xieyang.txt"
+GUC = "countries/potun/Gucun.txt"
+BEI = "countries/potun/Beidao.txt"
+PHA = "countries/potun/Phaedin.txt"
 
 #------------
 # Tangmo
 #------------
-# Langdin
-# Sungkwa
+LNG = "countries/tang_mo/Langdin.txt"
+SUN = "countries/tang_mo/Sungkwa.txt"
 
 #------------
 # Tsaesci
 #------------
-# Gorkota
-# Kamipara
-# Sigtari
-# Panman
-# Nuku
-# Gorling 
+GOR = "countries/tsaesci/Gorkota.txt"
+KAI = "countries/tsaesci/Kamipara.txt"
+SIG = "countries/tsaesci/Sigtari.txt"
+PAN = "countries/tsaesci/Panman.txt"
+NUK = "countries/tsaesci/Nuku.txt"
+GOL = "countries/tsaesci/Gorling.txt"
 
 #------------
-# Other
+# Thras
 #------------
-# Solsthiem
+SLO = "countries/thras/Sload.txt"
 
-# Stros M'kai
-
+#------------
 # Yokuda
+#------------
+YOK = "countries/yokuda/Yokuda.txt"
 
+#------------
 # Atmora
-# Frostking
+#------------
+ATM = "countries/atmora/Atmora.txt"
 
-# Zasho
-# Cathnoquey
+#------------
+# Akavir Islands
+#------------
+CAT = "countries/islander/Cathnoquey.txt"
+YNE = "countries/islander/Yneslea.txt"
+ESR = "countries/islander/Esroniet.txt"
 

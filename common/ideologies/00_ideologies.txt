@@ -1,7 +1,19 @@
 ideologies = {
-	power = {
+    # ai_communist
+    # ai_democratic
+    # ai_fascist
+    # ai_neutral
+
+    # can_be_boosted = no
+    # can_collaborate = yes
+
+    # Might
+    #   - Nation focuses on military might
+    might = {
 		types = {		
-			kingdom = { }
+			might_kingdom = { }
+            might_council = { }
+            might_tribe = { }
 		}
 		
 		dynamic_faction_names = {
@@ -12,7 +24,7 @@ ideologies = {
 			"FACTION_NAME_5"
 		}
 		
-		color = { 0 0 255 }
+		color = { 183 58 23 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -20,32 +32,32 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
 		}
 		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
 		}
 		faction_modifiers = { }
         
 		ai_fascist = yes
-        
-        can_be_boosted = no
 	}
-
+    
+    # Knowledge
+    #   - Nation focuses on acquisition of knowledge
     knowledge = {
 		types = {		
-			council = { }
+			knowledge_kingdom = { }
+            knowledge_council = { }
+            knowledge_tribe = { }
 		}
 		
 		dynamic_faction_names = {
@@ -56,7 +68,7 @@ ideologies = {
 			"FACTION_NAME_5"
 		}
 		
-		color = { 0 0 255 }
+		color = { 23 34 183 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -64,37 +76,34 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
 		}
 		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
 		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50
-		}
-		ai_democratic = yes
+		faction_modifiers = { }
         
-        can_be_boosted = no
+		ai_democratic = yes
 	}
     
-    neutral = {
-	
-		types = {
-			tribe = { }
+    # Wealth
+    #   - Nation focuses on acquisition of wealth
+    wealth = {
+		types = {		
+			wealth_kingdom = { }
+            wealth_council = { }
+            wealth_tribe = { }
 		}
-
+		
 		dynamic_faction_names = {
 			"FACTION_NAME_1"
 			"FACTION_NAME_2"
@@ -103,32 +112,294 @@ ideologies = {
 			"FACTION_NAME_5"
 		}
 		
-		color = { 124 124 124 }
-		
-		
-		war_impact_on_world_tension = 0.25
-		faction_impact_on_world_tension = 0.1
+		color = { 214 199 34 }
 		
 		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_send_volunteers = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
 		}
+		
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3	
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+		}
+		faction_modifiers = { }
+        
+		ai_fascist = yes
+	}
+    
+    # Religion
+    #   - Nation focues on religious matters
+    religion = {
+		types = {		
+			religion_kingdom = { }
+            religion_council = { }
+            religion_tribe = { }
 		}
 		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 207 224 206 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
+		}
+		
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+		}
 		faction_modifiers = { }
-
-		can_be_boosted = no
-		can_collaborate = yes
-
+        
+		ai_fascist = yes
+	}
+    
+    # Justice
+    #   - Nation focues on enforcing justice
+    justice = {
+		types = {		
+			justice_kingdom = { }
+            justice_council = { }
+            justice_tribe = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 82 132 175 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
+		}
+		
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+		}
+		faction_modifiers = { }
+        
+		ai_democratic = yes
+	}
+    
+    # Charisma
+    #   - Nation focuses on diplomatic matters
+    charisma = {
+		types = {		
+			charisma_kingdom = { }
+            charisma_council = { }
+            charisma_tribe = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 49 155 141 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
+		}
+		
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+		}
+		faction_modifiers = { }
+        
+		ai_democratic = yes
+	}
+    
+    # Occult
+    #   - Nation focuses on occult matters
+    occult = {
+		types = {		
+			occult_kingdom = { }
+            occult_council = { }
+            occult_tribe = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 40 40 40 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
+		}
+		
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+		}
+		faction_modifiers = { }
+        
+		ai_fascist = yes
+	}
+    
+    # Subterfuge
+    #   - Nation focuses on espionage
+    subterfuge = {
+		types = {		
+			subterfuge_kingdom = { }
+            subterfuge_council = { }
+            subterfuge_tribe = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 186 67 176 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
+		}
+		
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+		}
+		faction_modifiers = { }
+        
+		ai_fascist = yes
+	}
+    
+    # Industrial
+    #   - Nation focuses on production
+    industrial = {
+		types = {		
+			industrial_kingdom = { }
+            industrial_council = { }
+            industrial_tribe = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 137 137 137 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+            can_only_justify_war_on_threat_country = no
+		}
+		
+		war_impact_on_world_tension = 0.0
+		faction_impact_on_world_tension = 0.0
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+			join_faction_tension = 0.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.0
+		}
+		faction_modifiers = { }
+        
 		ai_neutral = yes
 	}
 }

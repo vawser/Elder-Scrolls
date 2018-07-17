@@ -1,18 +1,4 @@
 default = {
-	#navy = {
-		#male = {
-		#}
-		#female = {
-		#}
-	#}
-	
-	#army = {
-		#male = {
-		#}
-		#female = {
-		#}
-	#}
-	
 	male = {
 		"gfx/leaders/leader_unknown.dds"
 	}
@@ -20,3 +6,4 @@ default = {
 		"gfx/leaders/leader_unknown.dds"
 	}
 }
+

@@ -1,37 +1,60 @@
-﻿capital = 1
+﻿capital = 100
 
-oob = "default_country_oob"
+oob = "BKM_default"
 
-set_research_slots = 3
+set_research_slots = 4
 
 set_technology = {
-
+    setup_technology = 1
 }
 
 add_ideas = {
-
+    racial_argonian
 }
+
+set_convoys = 100
 
 set_politics = {
-
 	parties = {
-		power = { 
-			popularity = 75
+		might = {
+			popularity = 10
 		}
-
 		knowledge = {
-			popularity = 5
+			popularity = 2
 		}
-		
-		neutral = {
+		wealth = {
+			popularity = 15
+		}
+        religion = {
 			popularity = 20
 		}
+        justice = {
+			popularity = 3
+		}
+        charisma = {
+			popularity = 5
+		}
+        subterfuge = {
+			popularity = 30
+		}
+        industrial = {
+			popularity = 10
+		}
+        occult = {
+			popularity = 5
+		}
 	}
-	
-	ruling_party = power
-	elections_allowed = no
+
+	ruling_party = subterfuge
 }
 
-set_convoys = 80
-set_national_unity = 0.75
-
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/ARGONIAN/argonian_male_1.dds"
+	expire = "5.1.1"
+	ideology = subterfuge_kingdom
+	traits = {
+		
+	}
+}

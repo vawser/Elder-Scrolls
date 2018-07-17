@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "RED_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_dunmer
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 35
+		}
+		knowledge = {
+			popularity = 15
+		}
+		wealth = {
+			popularity = 10
+		}
+        religion = {
+			popularity = 10
+		}
+        justice = {
+			popularity = 5
+		}
+        charisma = {
+			popularity = 5
+		}
+        subterfuge = {
+			popularity = 10
+		}
+        industrial = {
+			popularity = 5
+		}
+        occult = {
+			popularity = 5
+		}
+	}
+
+	ruling_party = might
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/DUNMER/dunmer_male_1.dds"
+	expire = "5.1.1"
+	ideology = might_kingdom
+	traits = {
+		
+	}
+}

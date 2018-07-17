@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "PEL_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_khajiit
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 10
+		}
+		knowledge = {
+			popularity = 2
+		}
+		wealth = {
+			popularity = 40
+		}
+        religion = {
+			popularity = 10
+		}
+        justice = {
+			popularity = 2
+		}
+        charisma = {
+			popularity = 16
+		}
+        subterfuge = {
+			popularity = 10
+		}
+        industrial = {
+			popularity = 5
+		}
+        occult = {
+			popularity = 5
+		}
+	}
+
+	ruling_party = wealth
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/KHAJIIT/khajiit_male_1.dds"
+	expire = "5.1.1"
+	ideology = wealth_kingdom
+	traits = {
+		
+	}
+}

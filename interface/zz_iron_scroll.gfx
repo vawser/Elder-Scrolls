@@ -1,6 +1,0 @@
-spriteTypes = {	
-    spriteType = {
-		name = "GFX_select_date_iron_scroll"
-		texturefile = "gfx/interface/select_date_iron_scroll.dds"
-	}
-}

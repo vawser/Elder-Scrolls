@@ -1,0 +1,92 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_select_date_iron_scroll"
+		texturefile = "gfx/interface/select_date_iron_scroll.dds"
+	}
+    
+    #-------------------------------------
+    # Ideas
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_idea_racial_icon"
+		texturefile = "gfx/interface/icons/racial_icon.dds"
+	}
+    
+    #-------------------------------------
+    # Ideologies
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_ideology_might_group"
+		texturefile = "gfx/interface/ideologies/might.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_knowledge_group"
+		texturefile = "gfx/interface/ideologies/knowledge.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_wealth_group"
+		texturefile = "gfx/interface/ideologies/wealth.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_justice_group"
+		texturefile = "gfx/interface/ideologies/justice.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_religion_group"
+		texturefile = "gfx/interface/ideologies/religion.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_charisma_group"
+		texturefile = "gfx/interface/ideologies/charisma.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_occult_group"
+		texturefile = "gfx/interface/ideologies/occult.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_subterfuge_group"
+		texturefile = "gfx/interface/ideologies/subterfuge.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_industrial_group"
+		texturefile = "gfx/interface/ideologies/industrial.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
+	}
+    
+    #-------------------------------------
+    # RESOURCES
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_resources_strip"
+		texturefile = "gfx/interface/resources_strip.dds"
+		noOfFrames = 6
+	}
+
+	spriteType = {
+		name = "GFX_missing_resources_strip"
+		texturefile = "gfx/interface/missing_resources_strip.dds"
+		noOfFrames = 6
+	}
+    
+    #-------------------------------------
+    # Buildings
+    #-------------------------------------
+    #spriteType = {
+	#	name = "GFX_buildings_strip"
+	#   textureFile ="gfx/interface/buildings/building_icon_strip.dds"
+	#	noOfFrames = 25
+	#}
+    
+    #-------------------------------------
+    # Decisions
+    #-------------------------------------
+    #spriteType = {
+	#	name = "GFX_decision_category_bronze_medal"
+	#	texturefile = "gfx/decisions/bronze_medal.dds"
+	#}
+}

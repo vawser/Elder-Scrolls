@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "HJA_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_nord
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 20
+		}
+		knowledge = {
+			popularity = 1
+		}
+		wealth = {
+			popularity = 8
+		}
+        religion = {
+			popularity = 45
+		}
+        justice = {
+			popularity = 15
+		}
+        charisma = {
+			popularity = 3
+		}
+        subterfuge = {
+			popularity = 2
+		}
+        industrial = {
+			popularity = 5
+		}
+        occult = {
+			popularity = 1
+		}
+	}
+
+	ruling_party = religion
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/NORD/nord_male_1.dds"
+	expire = "5.1.1"
+	ideology = religion_kingdom
+	traits = {
+		
+	}
+}

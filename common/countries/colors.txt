@@ -1,0 +1,6 @@
+#reload countrycolors
+
+GER = {
+	color = HSV {  }
+	color_ui = rgb { }
+}

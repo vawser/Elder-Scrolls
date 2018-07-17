@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "ORS_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_orsimer
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 20
+		}
+		knowledge = {
+			popularity = 5
+		}
+		wealth = {
+			popularity = 9
+		}
+        religion = {
+			popularity = 5
+		}
+        justice = {
+			popularity = 50
+		}
+        charisma = {
+			popularity = 1
+		}
+        subterfuge = {
+			popularity = 5
+		}
+        industrial = {
+			popularity = 5
+		}
+        occult = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = justice
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/ORSIMER/orsimer_male_1.dds"
+	expire = "5.1.1"
+	ideology = justice_kingdom
+	traits = {
+		
+	}
+}

@@ -1,0 +1,15 @@
+﻿l_english: 
+ food: "Food"
+ food_desc: "Food is consumed by all manner of troops, as it is a basic need shared by all."
+ wood: "Lumber"
+ wood_desc: "Lumber is used in the construction of war engines and ships."
+ iron: "Iron"
+ iron_desc: "Iron is vital to the production of weaponry and armour."
+ cloth: "Cloth"
+ cloth_desc: "Cloth is used in manners instances to clothe troops and as a material in the construction of military machines."
+ leather: "Leather"
+ leather_desc: "Leather is a more accessible alternative to iron when it comes to armour, and is used as a material for its supple but tough texture."
+ magicka: "Magicka"
+ magicka_desc: "The source of all magic in Nirn, magicka can be found in many forms."
+
+ 

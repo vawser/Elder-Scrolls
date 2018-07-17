@@ -1,0 +1,11 @@
+uses_unique_advisors = {
+    OR = {
+        # None
+    }
+}
+
+uses_unique_designers = {
+    OR = {
+        # None
+    }
+}

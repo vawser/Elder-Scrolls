@@ -1,0 +1,11 @@
+technologies = {
+    # Added on game start
+	setup_technology = {
+        
+        
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

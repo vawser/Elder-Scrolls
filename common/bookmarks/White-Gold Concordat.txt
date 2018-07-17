@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "WHITEGOLD_CONCORDAT_NAME"
+		desc = "WHITEGOLD_CONCORDAT_DESC"
+		date = 175.1.1.1
+		picture = "GFX_select_date_iron_scroll"
+		default_country = "CYR"
+	
+        "CYR"={
+			history = "CYR_HISTORY_DESC"
+            ideology = power
+		}
+
+        "---"={
+			history = "BLANK_DESC"
+		}
+        
+		effect = {
+			randomize_weather = 12345
+		}
+	}
+}

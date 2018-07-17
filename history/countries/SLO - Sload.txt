@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "SLO_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_sload
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 40
+		}
+		knowledge = {
+			popularity = 10
+		}
+		wealth = {
+			popularity = 10
+		}
+        religion = {
+			popularity = 20
+		}
+        justice = {
+			popularity = 15
+		}
+        charisma = {
+			popularity = 0
+		}
+        subterfuge = {
+			popularity = 0
+		}
+        industrial = {
+			popularity = 5
+		}
+        occult = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = might
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/SLOAD/sload_male_1.dds"
+	expire = "5.1.1"
+	ideology = might_kingdom
+	traits = {
+		
+	}
+}

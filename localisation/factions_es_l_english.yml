@@ -1,0 +1,9 @@
+﻿l_english: 
+ # Faction names
+ FACTION_NAME_1: "The $LEADER_COUNTRY_ADJ$ Union"
+ FACTION_NAME_2: "The $LEADER_COUNTRY_ADJ$ Association"
+ FACTION_NAME_3: "The $LEADER_COUNTRY_ADJ$ Concordat"
+ FACTION_NAME_4: "The $LEADER_COUNTRY_ADJ$ Coalition"
+ FACTION_NAME_5: "The $LEADER_COUNTRY_ADJ$ League"
+ 
+ 

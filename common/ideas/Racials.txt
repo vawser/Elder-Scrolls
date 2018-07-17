@@ -1,0 +1,379 @@
+ideas = {
+	country = {
+		racial_imperial = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_nord = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_breton = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_reachmen = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_atmora = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_redguard = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_bosmer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_altmer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_maormer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_orsimer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_falmer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_dwemer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_dunmer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_chimer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_argonian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_khajiit = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_tsaesci = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_kamal = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_tang_mo = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_argonian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_potun = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+        racial_sload = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+                always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_icon
+
+			modifier = {
+                
+			}
+		}
+    }
+}
+

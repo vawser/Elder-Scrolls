@@ -1,20 +1,3 @@
-# Written by Henrik "Groogy" Hansson
-# Modified by Daniel "Da9L" Sjöberg
-
-# befriend
-# conquer
-# antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building - broken
-# research_tech
-# garrison
-# protect
-# influence
-# contain
-# area_priority
-
 default_unit_production = {
 	enable = {
 		always = yes
@@ -126,6 +109,23 @@ default_unit_production = {
 	}
 }
 
+default_pp_spend_amount = {
+	enable = {
+		always = yes
+	}
+	
+	ai_strategy = {
+		type = pp_spend_amount
+		id = idea
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = pp_spend_amount
+		id = decision
+		value = 100
+	}
+}
 
 default_paratroopers_production = {
 	enable = {
@@ -144,18 +144,24 @@ default_paratroopers_production = {
 
 default_garrison_production = {
 	enable = {
-		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
+		ai_wants_divisions >  12 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
 	}
 	abort = {
-		ai_wants_divisions < 13 #Massively decreasing the amount of paratroopers the AI wants
+		ai_wants_divisions < 13 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = no
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 7
+		value = 5
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 2
 	}
 }
 
@@ -247,79 +253,6 @@ highered_armored_production = {
 	}
 }
 
-slightly_naval_focused_nation = {
-	enable = {
-		always = no
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = capital_ship
-		value = 1
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 1
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 1
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = convoy
-		value = 1
-	}
-}
-
-more_naval_focused_nation = {
-	enable = {
-		always = no
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = capital_ship
-		value = 2		 #1 to 2
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 1
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 1
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = convoy
-		value = 1
-	}
-}
-
-
-default_area_priority = {
-	enable = {
-		
-	}
-
-	ai_strategy = {
-		type = area_priority
-		id = tamriel
-		value = 100
-	}
-}
-
 default_stockpile_management = {
 	enable = {
 		num_divisions > 150
@@ -330,7 +263,7 @@ default_stockpile_management = {
 	}
 
 	ai_strategy = {
-		type = equipment_stockpile
+		type = equipment_stockpile_surplus_ratio
 		value = 35 # double base stockpile #from 25 to 35
 	}
 }
@@ -338,10 +271,7 @@ default_stockpile_management = {
 
 DEFAULT_template_design = {
 	enable = {
-		
-	}
-	abort = { 
-
+		always = yes
 	}
 
 	ai_strategy = {
@@ -407,3 +337,30 @@ save_admiral_pp_for_later = {
 		value = -100
 	}
 }
+
+do_not_waste_pp_if_saving_for_manpower_laws = {
+
+	enable = {
+		manpower_per_military_factory < 500
+		has_war = yes
+	}
+	abort = {
+		OR = {
+			manpower_per_military_factory > 500
+			has_war = no
+		}
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = relation
+		value = -9999
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = guarantee
+		value = -9999
+	}
+}
+

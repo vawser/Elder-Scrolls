@@ -1,0 +1,60 @@
+﻿capital = 100
+
+oob = "SUM_default"
+
+set_research_slots = 4
+
+set_technology = {
+    setup_technology = 1
+}
+
+add_ideas = {
+    racial_altmer
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		might = {
+			popularity = 0
+		}
+		knowledge = {
+			popularity = 0
+		}
+		wealth = {
+			popularity = 0
+		}
+        religion = {
+			popularity = 0
+		}
+        justice = {
+			popularity = 0
+		}
+        charisma = {
+			popularity = 0
+		}
+        subterfuge = {
+			popularity = 0
+		}
+        industrial = {
+			popularity = 0
+		}
+        occult = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = might
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "gfx/leaders/ALTMER/altmer_male_1.dds"
+	expire = "5.1.1"
+	ideology = might_kingdom
+	traits = {
+		
+	}
+}
