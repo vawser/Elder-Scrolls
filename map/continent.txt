@@ -1,4 +1,13 @@
 continents = {
-	tamriel
-	akavir
+	tamriel         # 1
+	akavir          # 2
+    yokuda          # 3
+    alinor          # 4
+    pyandonea       # 5
+    roscrea         # 6
+    atmora          # 7
+    thras           # 8
+    cathnoquey      # 9
+    yneslea         # 10
+    esroniet        # 11
 }
