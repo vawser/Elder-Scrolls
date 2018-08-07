@@ -8,7 +8,7 @@ bookmarks = {
 	
         "CYR"={
 			history = "CYR_HISTORY_DESC"
-            ideology = power
+            ideology = might
 		}
 
         "---"={
